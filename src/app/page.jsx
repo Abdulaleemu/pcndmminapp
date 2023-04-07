@@ -1,18 +1,18 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from "next/image"
+import { Inter } from "next/font/google"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
   return (
     <main>
        <div className="h-screen w-screen ">
 
-<div className='h-full w-full bg-gray-500 flex flex-col sm:flex-row md:flex-row  '>
+<div className="h-full w-full bg-gray-500 flex flex-col sm:flex-row md:flex-row  ">
   {/* Login Form */}
-  <div className='h-full w-1/3 bg-white flex flex-col justify-center items-center'>
-    <h1 className='text-3xl font-semibold '>Admin Sign In</h1>
-    <div className='w-1/2 h-1/2'>
+  <div className="h-full w-1/3 bg-white flex flex-col justify-center items-center">
+    <h1 className="text-3xl font-semibold ">Admin Sign In</h1>
+    <div className="w-1/2 h-1/2">
     <form className="mt-6">
               <div className="mb-2">
                   <label
@@ -53,16 +53,16 @@ export default function Home() {
     </div>
   </div>
   {/* Logo Side */}
-  <div className='h-full w-2/3 flex flex-col items-center justify-center bg-sky-500'>
-    <div className='h-[300px] w-[300px] bg-sky-300 mb-11 rounded-full flex items-center justify-center'>
+  <div className="h-full w-2/3 flex flex-col items-center justify-center bg-sky-500">
+    <div className="h-[300px] w-[300px] bg-sky-300 mb-11 rounded-full flex items-center justify-center">
       <Image 
       height={200}
       width={200}
       src="/pcnlogo.png"
-      alt='pcnLogo'
-      className='rounded-full' />
+      alt="pcnLogo"
+      className="rounded-full" />
                 </div>
-    <p className='w-2/3 text-lg text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p className="w-2/3 text-lg text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
   </div>
 
 </div>
